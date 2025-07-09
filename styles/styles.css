@@ -1,0 +1,370 @@
+/* fuentes a usar */
+
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+/*"Francois One", sans-serif*/
+@import url('https://fonts.googleapis.com/css2?family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*"Tuffy", sans-serif*/
+
+/*fondo y fuentes importantes de titulos y parrafos*/
+
+body {
+    background-color: #b20405;
+    color: white;
+    font-family: "Francois One", sans-serif  ;
+}
+
+p {
+    font-family:"Tuffy", sans-serif ;
+}
+
+/*links*/
+
+.nav {
+    list-style-type: none;
+}
+
+.nav-border {
+    color: white;
+    text-decoration: none;
+}
+
+/*Estilado nav*/
+
+.forklift-logo {
+    width: 100px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+header {
+    padding: 8px;
+}
+
+/*INDEX*/
+
+/*     BLOQUE PRINCIPAL INDEX        */
+
+.bloque-principal {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.bloque-principal h1 {
+    text-align: left;
+    font-size: 50px;
+}
+
+.bloque-principal p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.bloque-imagen img {
+    width: 600px;
+}
+
+
+/*     BLOQUE SECUNDARIO INDEX        */
+
+.bloque-secundario {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 40px;
+    justify-content: space-between;    
+    gap: 20px;
+}
+
+.bloque-secundario h2 {
+    text-align: right;
+    font-size: 50px;
+}
+
+.bloque-secundario p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.bloque.imagen2 img {
+    width: 600px;
+}
+
+
+
+
+
+/*MANTENCIONES*/
+
+.mantenciones-titulo {
+    font-size: 60px;
+    text-align: center;
+}
+
+/*         PRIMER BLOQUE DE MANTENCIONES       */
+
+
+.mantenciones-bloque1 {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    gap: 20px;
+}
+
+.mantenciones-texto {
+    width: 600px;
+}
+.mantenciones-texto h2 {
+    font-size: 50px;
+    text-align: left;
+
+}
+
+.mantenciones-texto p {
+    font-size: 20px;
+}
+
+.mantenciones-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    background-color: #910101;
+    border-radius: 40px;
+    padding: 30px;
+
+}
+
+.mantenciones-img img {
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.mantenciones-img a {
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: black;
+    padding: 10px;
+}
+
+
+/*         SEGUNDO BLOQUE DE MANTENCIONES       */
+
+.mantenciones-bloque2 {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    gap: 20px;
+
+}
+
+.mantenciones-texto2 {
+    width: 600px;
+}
+
+.mantenciones-texto2 h2 {
+    font-size: 50px;
+    text-align: left;
+}
+
+.mantenciones-texto2 p {
+    font-size: 20px;
+}
+
+.mantenciones-img2 img {
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.mantenciones-img2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    border-radius: 40px;
+    background-color: #910101;
+    padding: 30px;
+}
+
+.mantenciones-img2 a {
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: black;
+    padding: 10px;
+}
+
+
+/*CONTACTO*/
+
+.ubicacion-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.ubicacion-img img {
+    width: 400px;
+}
+
+.ubicacion-texto {
+    width: 1500px;
+}
+
+.ubicacion-texto h1 {
+    font-size: 50px;
+}
+
+.ubicacion-texto p {
+    font-size: 20px;
+}
+
+.contacto-seg2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacto-seg h2 {
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.contacto-seg2 a {
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+
+.titulo-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+
+.opciones-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.opc-card h3 {
+    text-align: center;
+}
+
+.opc-card {
+    margin-bottom: 50px;
+}
+
+/*EQUIPO*/
+
+
+.titulos-equipo h1 {
+    text-align: center;
+}
+
+.titulos-equipo h4 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.personal-card {
+    padding: 16px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: #910101;
+    width: 300px;
+}
+
+.personal-card {
+    text-align: center;
+}
+
+.personal-card p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.personal-card img {
+
+    width: 80%;
+}
+
+
+
+
+/* CLIENTE  */
+
+/*    PRIMERA PARTE DE LAS TARJETAS */
+
+.clientes-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.tarjeta-cliente {
+    width: 200px;
+    background-color: #910101;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.tarjeta-cliente img {
+    width: 200px;
+}
+
+.tarjeta-cliente h2 {
+    text-align: center;
+}
+
+.garantia h2 {
+    font-size: 30px;
+
+}
+
+
+
+
+/*  FOOTER */
+
+footer {
+    text-align: right;
+}
+
+
+
