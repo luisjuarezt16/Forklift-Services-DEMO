@@ -10,3 +10,51 @@
 
 
 
+body {
+    background-color: #b20405;
+    color: antiquewhite;
+}
+
+.superior-mantenciones {
+    margin-left: 20px;
+}
+
+.mantenciones-bloque2 {
+    margin-left: 20px;
+}
+
+.mantenciones-img {
+    width: 50%;
+    height: auto;
+}
+
+.mantenciones-img2 {
+    margin: px;
+    width: 40%;
+    height: auto;
+}
+
+
+
+header img {
+    width: 50px;
+}
+
+header {
+    color: antiquewhite;
+}
+
+
+
+
+
+
+.clientes-container {
+    padding: 20px;
+}
+
+.clientes-container img {
+    width: 50%;
+    height: auto;
+}
+
