@@ -58,3 +58,9 @@ header {
     height: auto;
 }
 
+container {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
