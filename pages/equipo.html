@@ -11,70 +11,74 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg nav-mio fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="../imagenes/logo.jpg" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto text-white">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav d-flex gap-3">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">INICIO</a>
+                            <a class="nav-link nav-text" aria-current="page" href="../index.html">INICIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-white" href="./mantenciones.html">MANTENCIONES</a>
+                            <a class="nav-link nav-text" href="./mantenciones.html">MANTENCIONES</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-white" href="./equipo.html">EQUIPO</a>
+                            <a class="nav-link nav-text" href="./equipo.html">EQUIPO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="./contacto.html">CONTACTO</a>
+                            <a class="nav-link nav-text" href="./contacto.html">CONTACTO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="./cliente.html">CLIENTES</a>
+                            <a class="nav-link nav-text" href="./cliente.html">CLIENTES</a>
                         </li>
                     </ul>
              </div>
             </div>
         </nav>
     </header>
-    </header>
+
 
     <main class="titulos-equipo">
         <h1>CONOCE A NUESTRO EQUIPO</h1>  
         
         <section class="container">
-            <div class="card" style="width: 18rem;">
-                <img src="../imagenes/03-equipo/1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+            <div class="row d-flex justify-content-center card-equipo">
+                <div class="card col-12 col-lg-4 card-equipo1" style="width: 18rem;">
+                    <img src="../imagenes/03-equipo/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="text-center">LUIS JUAREZ</h4>
+                        <p> Tecnico encargado, Años de profesion en el area</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="../imagenes/03-equipo/1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <div class="card col-12 col-lg-4 card-equipo1" style="width: 18rem;">
+                    <img src="../imagenes/03-equipo/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h4 class="text-center">LUIS ROJAS</h4>
+                        <p> Ejecutivo de ventas, ademas de vender maquinaria, tambien las alquila</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="../imagenes/03-equipo/1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <div class="card col-12 col-lg-4 card-equipo1" style="width: 18rem;">
+                    <img src="../imagenes/03-equipo/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h4 class="text-center">JORDAN MENDEZ</h4>
+                        <p> Contador, lleva todo el tema de contabilidad y finanzas</p>
+                    </div>
                 </div>
-            </div>
+            </div>    
         </section>
         
         <div>
-            <h4>"Detrás de cada máquina en marcha, hay un gran equipo."</h4>
+            <h4 class="text-center">"Detrás de cada máquina en marcha, hay un gran equipo."</h4>
         </div>
-
-        <!-- BOOSTRAP JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     </main>
 
-    <footer>
+    <footer class="text-end px-5">
         <p>+56 9 59888321    @forkliftservices     Derechos reservados Forklift Services 2025.</p>
     </footer>
+    <!-- BOOSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>

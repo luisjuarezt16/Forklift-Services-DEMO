@@ -1,4 +1,4 @@
-/* fuentes a usar */
+/* FUENTES*/
 
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
 /*"Francois One", sans-serif*/
@@ -7,7 +7,18 @@
 
 /*fondo y fuentes importantes de titulos y parrafos*/
 
+/*ESTILOS GENERALES*/
+body {
+  font-family: 'Tuffy', sans-serif; /* Fuente principal para textos */
+}
 
+h1, h2, h3, h4 {
+  font-family: 'Francois One', sans-serif; /* Fuente para encabezados */
+}
+
+p {
+   font-family: 'Tuffy', sans-serif; 
+}
 
 
 body {
@@ -15,52 +26,128 @@ body {
     color: antiquewhite;
 }
 
-.superior-mantenciones {
-    margin-left: 20px;
-}
-
-.mantenciones-bloque2 {
-    margin-left: 20px;
-}
-
-.mantenciones-img {
-    width: 50%;
-    height: auto;
-}
-
-.mantenciones-img2 {
-    margin: px;
-    width: 40%;
-    height: auto;
-}
-
-
-
+/*NAV ESTILOS CSS*/
 header img {
     width: 50px;
 }
-
-header {
-    color: antiquewhite;
+header{
+    margin-bottom: 20px;
+}
+.nav-mio {
+    color: #ffffff;
+    background-color: #940101;
+    margin-bottom: 20px;
+}
+.nav-text {
+    font-family: 'Francois One', sans-serif ;
+    color: #ffffff;
+}
+.nav-text:hover {
+    color: black;
+    font-size: 18px;
 }
 
 
+/*INDEX ESTILOS CSS*/
+.carrousel-style {
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+/*MANTENCIONES CSS*/
+
+.body-card{
+    background-color: #940101;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.body-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.btn-mio {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-family: 'Francois One', sans-serif ;
+}
+.btn-mio:hover {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    font-size: 18px;
+}
+
+.mantenciones-titulo {
+    margin-bottom: 30px;
+}
+
+.mantenciones-bloque2 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
 
 
+/*EQUIPO CSS*/
+.titulos-equipo h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.card-equipo{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 100px;
+}
+
+.card-equipo1 {
+    background-color: #940101;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.card-equipo1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
 
 
-.clientes-container {
+/*CONTACTO CSS*/
+
+.ubicacion-container {
+    margin-top: 100px;
+
+}
+
+.img-fluid {
+    width: 600px;
     padding: 20px;
 }
 
-.clientes-container img {
-    width: 50%;
-    height: auto;
+.btn-contacto {
+    background-color: #000000;
+    color: white;
 }
 
-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-
+.contacto-op {
+    padding: 40px;
 }
+
+
+/*TITULO CSS*/
+.titulo-clientes {
+    margin-top: 100px;
+}
+
+
+.card-equipo2 {
+    background-color: #940101;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.card-equipo2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
 

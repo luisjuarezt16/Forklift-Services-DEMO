@@ -11,80 +11,87 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg nav-mio fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="../imagenes/logo.jpg" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto text-white">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav d-flex gap-3">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="../index.html">INICIO</a>
+                            <a class="nav-link nav-text" aria-current="page" href="../index.html">INICIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-white" href="./mantenciones.html">MANTENCIONES</a>
+                            <a class="nav-link nav-text" href="./mantenciones.html">MANTENCIONES</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-white" href="./equipo.html">EQUIPO</a>
+                            <a class="nav-link nav-text" href="./equipo.html">EQUIPO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="./contacto.html">CONTACTO</a>
+                            <a class="nav-link nav-text" href="./contacto.html">CONTACTO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="./cliente.html">CLIENTES</a>
+                            <a class="nav-link nav-text" href="./cliente.html">CLIENTES</a>
                         </li>
                     </ul>
              </div>
             </div>
         </nav>
     </header>
-    </header>
 
     <main>
         <section class="ubicacion-container">
             <div class="row">
-                <div class="col-4 ubicacion-texto">
+                <div class="col-lg-6 col-12 ubicacion-texto">
                     <h1>NUESTRAS INSTALACIONES</h1>
-                    <p>Av el Parron 0216, La Cisterna. Santiago de Chile</p>
+                    <p class="mt-3">En Forklift Services contamos con instalaciones modernas y funcionales, diseñadas para ofrecer un servicio integral y de calidad a cada uno de nuestros clientes. 
+                        Nuestro taller está ubicado estratégicamente en Av. El Parrón 0216, La Cisterna, Santiago de Chile, un punto de fácil acceso para recibir y despachar equipos de forma ágil y segura.</p>
+                    <p> Disponemos de áreas de trabajo amplias y perfectamente equipadas con herramientas y tecnología de última generación, lo que nos permite realizar mantenciones preventivas y correctivas de manera eficiente y garantizando resultados confiables.</p>
+                </div>
+                <div class="col-lg-6 col-12 d-flex">
+                    <div class="row">
+                        <img src="../imagenes/04-contacto/1.jpeg" alt="" class="col-lg-12 img-fluid">
+                    </div>
                 </div>
 
-                <div class="col-8 ubicacion-img">
-                    <img src="../imagenes/04-contacto/1.jpeg" alt="">
-                    <img src="../imagenes/04-contacto/2.jpeg" alt="">
-                </div>
             </div>
         </section>
 
         <section class="contacto-seg">
             <div class="contacto-seg2">
-                <h2>RESERVA TU VISITA TECNICA</h2>
-                <a class=nav-border1 href="https://docs.google.com/forms/d/e/1FAIpQLScpnjED1F_1q8iP_H-cfAqxGJ4fJPB2JHrOb5jsS7YWgEQQCQ/viewform?usp=preview" target="_blank">Click aca y Rellena el formulario</a>
-            </div>
+                <h2 class="mt-5 text-center">RESERVA TU VISITA TECNICA</h2>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                 <a href="https://docs.google.com/forms/d/e/1FAIpQLScpnjED1F_1q8iP_H-cfAqxGJ4fJPB2JHrOb5jsS7YWgEQQCQ/viewform?usp=preview" target="_blank" class="btn btn-mio">CLICK ACA Y RESERVA TU VISITA</a>
+                </div>
         </section>
 
-        <h1 class="titulo-contacto">CONTACTO</h1>
+        <h1 class="mt-5 text-center">CONTACTO</h1>
 
-        <section class="opciones-contacto">
-            <div class="opc-card">
-                <h3>OFICINA</h3>
-                <p>+56 9 89888321</p>
-            </div>
-            <div class="opc-card">
-                <h3>INSTAGRAM</h3>
-                <p>@forklifservices2022</p>
-            </div>
-            <div class="opc-card">
-                <h3>FACEBOOK</h3>
-                <p>FORKLIFT SERVICES</p>
+        <section class="opciones-contacto d-flex justify-content-center">
+            <div class="row d-flex text-center">
+                <div class="col-12 col-lg-4 contacto-op ">
+                    <h3>OFICINA</h3>
+                    <p>+56 9 89888321</p>
+                </div>
+                <div class="col-12 col-lg-4 contacto-op ">
+                    <h3>INSTAGRAM</h3>
+                    <p>@forklifservices2022</p>
+                </div>
+                <div class="col-12 col-lg-4 contacto-op ">
+                    <h3>FACEBOOK</h3>
+                    <p>FORKLIFT SERVICES</p>
+                </div>
             </div>
         </section>
         <!-- BOOSTRAP JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     </main>
 
-    <footer>
+    <footer class="text-end px-5">
         <p>+56 9 598883211    @forkliftservices     Derechos reservados Forklift Services 2025.</p>
     </footer>
+    <!-- BOOSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
