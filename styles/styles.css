@@ -46,6 +46,16 @@ header{
     color: black;
     font-size: 18px;
 }
+.navbar-toggler {
+  border: none;         /* Quita el borde */
+  background: none;     /* Quita fondo gris */
+  box-shadow: none;     /* Quita sombra de enfoque */
+}
+
+.nav-icon {
+    width: 30px;
+    border: 3px solid white;
+}
 
 
 /*INDEX ESTILOS CSS*/
@@ -149,5 +159,8 @@ header{
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
+
+
+
 
 
