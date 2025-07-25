@@ -6,6 +6,8 @@
     <title>CONTACTO</title>
     <!-- BOOSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CCS -->
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
@@ -41,51 +43,74 @@
     </header>
 
     <main>
-        <section class="ubicacion-container">
-            <div class="row">
+        <section data-aos="fade-right" class="ubicacion-container">
+            <div class="row background-var">
                 <div class="col-lg-6 col-12 ubicacion-texto">
-                    <h1>NUESTRAS INSTALACIONES</h1>
-                    <p class="mt-3">En Forklift Services contamos con instalaciones modernas y funcionales, diseñadas para ofrecer un servicio integral y de calidad a cada uno de nuestros clientes. 
+                    <h1 class="ms-4 mb-5 mt-5">NUESTRAS INSTALACIONES</h1>
+                    <p class="ms-4">En Forklift Services contamos con instalaciones modernas y funcionales, diseñadas para ofrecer un servicio integral y de calidad a cada uno de nuestros clientes. 
                         Nuestro taller está ubicado estratégicamente en Av. El Parrón 0216, La Cisterna, Santiago de Chile, un punto de fácil acceso para recibir y despachar equipos de forma ágil y segura.</p>
-                    <p> Disponemos de áreas de trabajo amplias y perfectamente equipadas con herramientas y tecnología de última generación, lo que nos permite realizar mantenciones preventivas y correctivas de manera eficiente y garantizando resultados confiables.</p>
+                    <p class="ms-4"> Disponemos de áreas de trabajo amplias y perfectamente equipadas con herramientas y tecnología de última generación, lo que nos permite realizar mantenciones preventivas y correctivas de manera eficiente y garantizando resultados confiables.</p>
                 </div>
-                <div class="col-lg-6 col-12 d-flex">
+                <div class="col-lg-6 col-12 d-flex justify-content-center">
                     <div class="row">
-                        <img src="../imagenes/04-contacto/1.jpeg" alt="" class="col-lg-12 img-fluid">
+                        <img src="../imagenes/04-contacto/1.jpeg " alt="" class="col-lg-12 img-fluid d-flex justify-content-center">
                     </div>
                 </div>
 
+                <div class="col-lg-6 col-12 d-flex">
+                    <div>
+                        <h1 class="ms-4 mb-2 mt-5">UBICANOS EN EL MAPA</h1>
+                        <p class="ms-4">Encuentra nuestra ubicación exacta en el mapa y ven cuando quieras</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12 pb-5 d-flex justify-content-center">
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.6065858656093!2d-70.65967838481335!3d-33.525801080753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c4df9b7d2971%3A0x2f3e6d41f91e0dab!2sAv.%20El%20Parr%C3%B3n%200216%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana%2C%20Chile!5e0!3m2!1ses-419!2scl!4v1693928390301!5m2!1ses-419!2scl"
+                            width="500"
+                            height="300"
+                            style="border: 4px solid rgba(255, 255, 255, 0.473); border-radius: 5px;"
+                            allowfullscreen="true"
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="contacto-seg">
+
+
+
+        <section data-aos="fade-left" class="contacto-seg">
             <div class="contacto-seg2">
                 <h2 class="mt-5 text-center">RESERVA TU VISITA TECNICA</h2>
+                <p class="text-center"> Rellena el formulario y te visitaremos lo mas pronto posible</p>
                 <div class="d-grid gap-2 col-6 mx-auto">
                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScpnjED1F_1q8iP_H-cfAqxGJ4fJPB2JHrOb5jsS7YWgEQQCQ/viewform?usp=preview" target="_blank" class="btn btn-mio">CLICK ACA Y RESERVA TU VISITA</a>
                 </div>
         </section>
 
-        <h1 class="mt-5 text-center">CONTACTO</h1>
+        <div class="background-var mb-5">
+            <h1 data-aos="fade-right" class="mt-5 text-center">CONTACTO</h1>
 
-        <section class="opciones-contacto d-flex justify-content-center">
-            <div class="row d-flex text-center">
-                <div class="col-12 col-lg-4 contacto-op ">
-                    <h3>OFICINA</h3>
-                    <p>+56 9 89888321</p>
+            <section data-aos="fade-right" class="opciones-contacto d-flex justify-content-center">
+                <div class="row d-flex text-center">
+                    <div class="col-12 col-lg-4 contacto-op ">
+                        <h3>OFICINA</h3>
+                        <p>+56 9 89888321</p>
+                    </div>
+                    <div class="col-12 col-lg-4 contacto-op ">
+                        <h3>INSTAGRAM</h3>
+                        <p>@forklifservices2022</p>
+                    </div>
+                    <div class="col-12 col-lg-4 contacto-op ">
+                        <h3>FACEBOOK</h3>
+                        <p>FORKLIFT SERVICES</p>
+                    </div>
                 </div>
-                <div class="col-12 col-lg-4 contacto-op ">
-                    <h3>INSTAGRAM</h3>
-                    <p>@forklifservices2022</p>
-                </div>
-                <div class="col-12 col-lg-4 contacto-op ">
-                    <h3>FACEBOOK</h3>
-                    <p>FORKLIFT SERVICES</p>
-                </div>
-            </div>
-        </section>
-        <!-- BOOSTRAP JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+            </section>
+        </div>    
     </main>
 
     <footer class="text-end px-5">
@@ -93,5 +118,10 @@
     </footer>
     <!-- BOOSTRAP JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

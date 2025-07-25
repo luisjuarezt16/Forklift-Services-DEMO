@@ -8,6 +8,11 @@
 /*fondo y fuentes importantes de titulos y parrafos*/
 
 /*ESTILOS GENERALES*/
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Tuffy', sans-serif; /* Fuente principal para textos */
 }
@@ -64,6 +69,9 @@ header{
     border-radius: 6px;
     overflow: hidden;
 }
+.background-var {
+    background-color: #46030386;
+}
 
 /*MANTENCIONES CSS*/
 
@@ -97,10 +105,19 @@ header{
 }
 
 
+
+.mi-input {
+    height: 45px; 
+    width: 600px;       
+    border-radius: 15px;    
+    padding: 10px 15px;
+}
+
+
 /*EQUIPO CSS*/
 .titulos-equipo h1 {
     text-align: center;
-    margin-top: 100px;
+
 }
 
 .card-equipo{
@@ -124,7 +141,7 @@ header{
 /*CONTACTO CSS*/
 
 .ubicacion-container {
-    margin-top: 100px;
+    margin-top: 70px;
 
 }
 
@@ -161,6 +178,24 @@ header{
 }
 
 
+/*MEDIA QUERIES*/
+
+@media (max-width: 480px) {
+  img {
+    width: 80%;
+    height: auto;
+
+  }
+
+   .mi-input {
+    width: 80%;    
+    height: auto; 
+  }
 
 
 
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+}

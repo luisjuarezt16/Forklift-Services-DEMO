@@ -6,6 +6,8 @@
     <title>EQUIPO</title>
     <!-- BOOSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CCS -->
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
@@ -41,10 +43,24 @@
     </header>
 
 
-    <main class="titulos-equipo">
-        <h1>CONOCE A NUESTRO EQUIPO</h1>  
+    <main class="titulos-equipo">  
         
-        <section class="container">
+        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="background-var pb-5">
+            <h1 class="m-5 pt-5">MISION DE NUESTRO EQUIPO</h1>
+            <p class="mt-5 ms-4 me-4">Nuestro equipo está formado por profesionales comprometidos, apasionados
+            por lo que hacen y convencidos de que el trabajo en equipo es la clave para lograr resultados extraordinarios.</p>
+            <p class="ms-4 me-4">Cada uno de nosotros aporta su experiencia, talento y dedicación para enfrentar cada proyecto con responsabilidad y creatividad. Creemos en la colaboración, la confianza y la mejora constante, 
+            porque sabemos que detrás de cada meta cumplida hay personas que suman esfuerzos, ideas y valores compartidos.</p>
+            <p class="ms-4 me-4">Nos enorgullece construir relaciones cercanas con nuestros clientes y partners, entregando
+            soluciones efectivas y un servicio de calidad que refleja el compromiso de cada integrante de nuestro equipo.</p>
+            <h4 class="ms-4 me-4 text-center">Juntos, convertimos desafíos en oportunidades.</h4>
+
+        </div>
+
+
+
+        <section data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="container">
+            <h1>CONOCE A NUESTRO EQUIPO</h1>
             <div class="row d-flex justify-content-center card-equipo">
                 <div class="card col-12 col-lg-4 card-equipo1" style="width: 18rem;">
                     <img src="../imagenes/03-equipo/1.jpg" class="card-img-top" alt="...">
@@ -73,6 +89,33 @@
         <div>
             <h4 class="text-center">"Detrás de cada máquina en marcha, hay un gran equipo."</h4>
         </div>
+
+
+        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="background-var">
+            <h2 class="text-center mt-2 pt-3">La historia de crecimiento de nuestro equipo en Forklift Services</h2>
+            <div class="container">
+                <div class=" mt-5">
+                    <h4>Luis Juarez – Técnico Encargado</h4>
+                    <p>Luis llegó a Forklift Services hace varios años con una sólida formación técnica y muchas ganas de enfrentar nuevos desafíos. Desde su incorporación, se convirtió en el pilar del área técnica, 
+                    liderando proyectos complejos y garantizando que cada máquina funcione al máximo. Su compromiso y constante actualización le han permitido crecer hasta convertirse en el encargado del equipo de mantenciones, inspirando a quienes trabajan con él.</p>
+                </div>
+
+                <div class=" mt-5">
+                    <h4>Luis Rojas – Ejecutivo de Ventas</h4>
+                    <p>Luis Rojas se unió a nuestro equipo con una visión clara: no solo vender maquinaria, sino ofrecer soluciones integrales a nuestros clientes. Su habilidad para entender las necesidades de cada proyecto lo llevó a desarrollar un área de alquiler de equipos, ampliando así las opciones para quienes confían en Forklift Services. Gracias a su enfoque proactivo y cercano,
+                    ha fortalecido relaciones duraderas con clientes y ha impulsado el crecimiento comercial de la empresa.</p>
+                </div>
+
+                <div class=" mt-5 pb-5 mb-5">
+                    <h4>Jordan Méndez – Contador</h4>
+                    <p>Jordan llegó para poner orden y estructura en las finanzas de Forklift Services. Desde el primer día, su trabajo riguroso y su visión estratégica han sido fundamentales para garantizar la salud financiera de la empresa. Con su liderazgo en el área contable,
+                    ha facilitado procesos internos y ha aportado una base sólida para el crecimiento sostenible del negocio.</p>
+                </div>
+
+            </div>
+
+        </div>
+
     </main>
 
     <footer class="text-end px-5">
@@ -80,5 +123,10 @@
     </footer>
     <!-- BOOSTRAP JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
