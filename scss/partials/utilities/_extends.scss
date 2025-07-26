@@ -1,0 +1,17 @@
+//VARIABLES
+
+@use "./variables" as vars;
+
+
+//EXTENDS
+%btn-base {
+  background-color: vars.$color-negro;
+  color: vars.$color-bordes;
+  font-family: vars.$fuente-titulos;
+}
+
+%card-style {
+  background-color: vars.$color-secundario;
+  color: vars.$color-bordes;
+  padding: 10px;
+}

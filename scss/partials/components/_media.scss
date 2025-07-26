@@ -1,0 +1,19 @@
+//VARIABLES
+
+@use "../utilities/mixins";
+
+//MEDIA QUERIES
+
+@media (max-width: 480px) {
+  img {
+    @include mixins.responsive-img(80%);
+  }
+
+  .mi-input {
+    @include mixins.responsive-img(80%);
+  }
+
+  iframe {
+    @include mixins.responsive-img(100%);
+  }
+}

@@ -1,0 +1,24 @@
+//VARIABLES
+@use "../utilities/variables";
+
+//IMPORTANDO FUENTES
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+//FUENTES USANDO VARIABLES
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: variables.$fuente-texto;
+  background-color: variables.$color-principal;
+  color: variables.$color-texto;
+}
+
+h1, h2, h3, h4 {
+  font-family: variables.$fuente-titulos;
+}
+
+p {
+  font-family: variables.$fuente-texto;
+}

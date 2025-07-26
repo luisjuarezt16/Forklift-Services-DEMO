@@ -1,0 +1,20 @@
+//UTILITIES
+@use "./partials/utilities/variables";
+@use "./partials/utilities/mixins";
+@use "./partials/utilities/extends";
+
+//BASE
+
+@use "./partials/base/reset";
+@use "./partials/base/tipografias";
+
+//COMPONENTS
+@use "./partials/components/general";
+@use "./partials/components/header";
+@use "./partials/components/media";
+@use "./partials/components/footer";
+
+
+
+
+

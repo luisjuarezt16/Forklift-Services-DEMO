@@ -1,201 +1,161 @@
-/* FUENTES*/
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.btn-mio, .btn-contacto {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Francois One", sans-serif;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
-/*"Francois One", sans-serif*/
-@import url('https://fonts.googleapis.com/css2?family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/*"Tuffy", sans-serif*/
+.body-card, .card-equipo1, .card-equipo2 {
+  background-color: #940101;
+  color: #ffffff;
+  padding: 10px;
+}
 
-/*fondo y fuentes importantes de titulos y parrafos*/
-
-/*ESTILOS GENERALES*/
-html, body {
+* {
   margin: 0;
   padding: 0;
 }
 
-body {
-  font-family: 'Tuffy', sans-serif; /* Fuente principal para textos */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Tuffy", sans-serif;
+  background-color: #b20405;
+  color: antiquewhite;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Francois One', sans-serif; /* Fuente para encabezados */
+  font-family: "Francois One", sans-serif;
 }
 
 p {
-   font-family: 'Tuffy', sans-serif; 
+  font-family: "Tuffy", sans-serif;
 }
 
-
-body {
-    background-color: #b20405;
-    color: antiquewhite;
-}
-
-/*NAV ESTILOS CSS*/
-header img {
-    width: 50px;
-}
-header{
-    margin-bottom: 20px;
-}
-.nav-mio {
-    color: #ffffff;
-    background-color: #940101;
-    margin-bottom: 20px;
-}
-.nav-text {
-    font-family: 'Francois One', sans-serif ;
-    color: #ffffff;
-}
-.nav-text:hover {
-    color: black;
-    font-size: 18px;
-}
-.navbar-toggler {
-  border: none;         /* Quita el borde */
-  background: none;     /* Quita fondo gris */
-  box-shadow: none;     /* Quita sombra de enfoque */
-}
-
-.nav-icon {
-    width: 30px;
-    border: 3px solid white;
-}
-
-
-/*INDEX ESTILOS CSS*/
 .carrousel-style {
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 6px;
-    overflow: hidden;
+  border: 3px solid #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
 }
+
 .background-var {
-    background-color: #46030386;
+  background-color: rgba(70, 3, 3, 0.525);
 }
 
-/*MANTENCIONES CSS*/
-
-.body-card{
-    background-color: #940101;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 10px;
+.body-card {
+  border: 3px solid #ffffff;
+  border-radius: 10px;
 }
 .body-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-.btn-mio {
-    color: rgb(255, 255, 255);
-    background-color: #000000;
-    font-family: 'Francois One', sans-serif ;
-}
+
 .btn-mio:hover {
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;
-    font-size: 18px;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 18px;
 }
 
 .mantenciones-titulo {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .mantenciones-bloque2 {
-    margin-top: 40px;
-    margin-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
-
-
 
 .mi-input {
-    height: 45px; 
-    width: 600px;       
-    border-radius: 15px;    
-    padding: 10px 15px;
+  height: 45px;
+  width: 600px;
+  border-radius: 15px;
+  padding: 10px 15px;
 }
 
-
-/*EQUIPO CSS*/
 .titulos-equipo h1 {
-    text-align: center;
-
+  text-align: center;
 }
 
-.card-equipo{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    gap: 100px;
+.card-equipo {
+  margin: 40px 0;
+  gap: 100px;
 }
-
-.card-equipo1 {
-    background-color: #940101;
-    padding: 10px;
-    color: #ffffff;
+.card-equipo1:hover, .card-equipo2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
-.card-equipo1:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-}
-
-
-/*CONTACTO CSS*/
 
 .ubicacion-container {
-    margin-top: 70px;
-
+  margin-top: 70px;
 }
 
 .img-fluid {
-    width: 600px;
-    padding: 20px;
+  width: 600px;
+  padding: 20px;
 }
 
-.btn-contacto {
-    background-color: #000000;
-    color: white;
+.btn-contacto:hover {
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .contacto-op {
-    padding: 40px;
+  padding: 40px;
 }
 
-
-/*TITULO CSS*/
 .titulo-clientes {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
-
-.card-equipo2 {
-    background-color: #940101;
-    padding: 10px;
-    color: #ffffff;
+header {
+  margin-bottom: 20px;
 }
-
-.card-equipo2:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+header img {
+  width: 50px;
 }
-
-
-/*MEDIA QUERIES*/
+header .nav-mio {
+  color: #ffffff;
+  background-color: #940101;
+  margin-bottom: 20px;
+}
+header .nav-text {
+  font-family: "Francois One", sans-serif;
+  color: #ffffff;
+}
+header .nav-text:hover {
+  color: black;
+  font-size: 18px;
+}
+header .navbar-toggler {
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+header .nav-icon {
+  width: 30px;
+  border: 3px solid #ffffff;
+}
 
 @media (max-width: 480px) {
   img {
     width: 80%;
     height: auto;
-
   }
-
-   .mi-input {
-    width: 80%;    
-    height: auto; 
+  .mi-input {
+    width: 80%;
+    height: auto;
   }
-
-
-
   iframe {
     width: 100%;
     height: auto;
   }
 }
+footer {
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=styles.css.map */

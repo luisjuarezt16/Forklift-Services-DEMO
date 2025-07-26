@@ -1,0 +1,93 @@
+//VARIABLES
+
+@use "../utilities/variables" as vars;
+@use "../utilities/mixins" as mix;
+@use "../utilities/extends" as ext;
+
+
+//CONTENIDO
+
+.carrousel-style {
+  border: 3px solid vars.$color-bordes;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.background-var {
+  background-color: rgba(70, 3, 3, 0.525);
+}
+
+.body-card {
+  @extend %card-style;
+  border: 3px solid vars.$color-bordes;
+  border-radius: 10px;
+  @include mix.hover-scale;
+}
+
+.btn-mio {
+  @extend %btn-base;
+
+  &:hover {
+    color: vars.$color-negro;
+    background-color: vars.$color-bordes;
+    font-size: 18px;
+  }
+}
+
+.mantenciones-titulo {
+  margin-bottom: 30px;
+}
+
+.mantenciones-bloque2 {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.mi-input {
+  height: 45px;
+  width: 600px;
+  border-radius: 15px;
+  padding: 10px 15px;
+}
+
+.titulos-equipo {
+  h1 {
+    text-align: center;
+  }
+}
+
+.card-equipo {
+  margin: 40px 0;
+  gap: 100px;
+
+  &1, &2 {
+    @extend %card-style;
+    @include mix.hover-scale;
+  }
+}
+
+.ubicacion-container {
+  margin-top: 70px;
+}
+
+.img-fluid {
+  width: 600px;
+  padding: 20px;
+}
+
+.btn-contacto {
+  @extend %btn-base;
+
+  &:hover {
+    background-color: vars.$color-bordes;
+    color: vars.$color-negro;
+  }
+}
+
+.contacto-op {
+  padding: 40px;
+}
+
+.titulo-clientes {
+  margin-top: 100px;
+}
